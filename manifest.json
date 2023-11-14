@@ -1,0 +1,26 @@
+{
+    "name": "Youtube Ad Skipper",
+    "version": "1.0.0",
+    "description": "skip the ad video",
+    "manifest_version": 3,
+    "author": "Simeon B",
+    "action": {
+        "default_popup": "index.html",
+        "default_title": "Youtube Ad Skipper"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "https://*.youtube.com/*"
+            ],
+            "js": [
+                "adBlocker.js"
+            ],
+            "run_at": "document_idle"
+        }
+    ],
+    "permissions": [
+        "activeTab",
+        "scripting"
+    ]
+}

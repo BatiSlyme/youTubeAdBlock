@@ -1,4 +1,5 @@
 const interval = setInterval(function () {
+    console.log('waitfor ad');
     const ad = [...document.querySelectorAll('.ad-showing')][0];
     if (ad) {
         const video = document.querySelector('video');
@@ -6,4 +7,3 @@ const interval = setInterval(function () {
     }
     return () => clearInterval(interval);
 }, 1000);
-
