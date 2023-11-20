@@ -5,5 +5,9 @@ const interval = setInterval(function () {
         const video = document.querySelector('video');
         video.currentTime = Number.MAX_VALUE;
     }
+    const skip = document.querySelector('button[class="ytp-ad-skip-button-modern ytp-button"]');
+    if (skip) {
+        skip.click();
+    }
     return () => clearInterval(interval);
 }, 1000);
