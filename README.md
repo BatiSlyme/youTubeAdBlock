@@ -1,7 +1,7 @@
 # youTubeAdBlock Extension
 ## This app is intended to be used as an chrome extension. In order to load it as an extension do the following steps:
 <ol>
-  <li>Download the adBlocker folder</li>
+  <li>Download the AdBlocker folder</li>
   <li>Go to Extensions -> Manage Extensions</li>
   <li>In the top right click <strong>Developer mode</strong></li>
   <li>In the op left click <strong>Load unpacked</strong></li>
