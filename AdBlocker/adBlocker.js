@@ -7,7 +7,7 @@ const interval = setInterval(function () {
     }
     const skip = document.querySelector('button[class="ytp-ad-skip-button-modern ytp-button"]');
     if (skip) {
-        skip.click();
+        skip => skip.click();
     }
     return () => clearInterval(interval);
-}, 1000);
+}, 50);
